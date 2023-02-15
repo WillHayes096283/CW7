@@ -1,4 +1,14 @@
-﻿using System;
+﻿/*
+ * @file: ColorDecorator.cs
+ * @author: William Hayes
+ * @date: 2/15/2023
+ * @brief: Newly added decorator
+ * 
+ * This file is a decorator that calls it's
+ * parent's draw() before printing it's name to
+ * console.
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*
+ * @file: ScrollDecorator.cs
+ * @author: William Hayes
+ * @date: 2/15/2023
+ * @brief: A decorator file, calls draw() for parent.
+ * 
+ * This is the ScrollDecorator file, it calls draw() for its
+ * parent before printing its own name to console.
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
