@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace CW7
 {
-    internal class Program
+    public interface Widget
     {
-        static void Main(string[] args)
-        {
-        }
+        void draw();
     }
 }

@@ -43,8 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="BorderDecorator.cs" />
+    <Compile Include="ColorDecorator.cs" />
+    <Compile Include="Decorator.cs" />
+    <Compile Include="DecoratorDemo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScrollDecorator.cs" />
+    <Compile Include="TextField.cs" />
+    <Compile Include="Widget.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
